@@ -502,6 +502,67 @@ type 0309, grid 12.5 mm</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="PH-1X04RG">
+<pad name="1" x="-6.35" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="4" x="1.27" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="0" x2="-5.715" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="0" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="-2.54" x2="-7.62" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-7.62" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-6.67" y1="-1.27" x2="-6.03" y2="0.23" layer="21"/>
+<rectangle x1="-6.67" y1="2.77" x2="-6.03" y2="8.77" layer="21"/>
+<rectangle x1="-4.13" y1="-1.27" x2="-3.49" y2="0.23" layer="21"/>
+<rectangle x1="-4.13" y1="2.77" x2="-3.49" y2="8.77" layer="21"/>
+<rectangle x1="-1.59" y1="-1.27" x2="-0.95" y2="0.23" layer="21"/>
+<rectangle x1="-1.59" y1="2.77" x2="-0.95" y2="8.77" layer="21"/>
+<rectangle x1="0.95" y1="-1.27" x2="1.59" y2="0.23" layer="21"/>
+<rectangle x1="0.95" y1="2.77" x2="1.59" y2="8.77" layer="21"/>
+<wire x1="-7.62" y1="2.77" x2="2.54" y2="2.77" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.77" x2="2.54" y2="0.23" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.23" x2="-7.62" y2="0.23" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="0.23" x2="-7.62" y2="2.77" width="0.127" layer="21"/>
+<text x="-7.62" y="-3.81" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+<package name="FH-1X04RG">
+<pad name="1" x="-6.35" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="-3.81" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="4" x="1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-7.62" y1="9.8" x2="2.54" y2="9.8" width="0.127" layer="21"/>
+<wire x1="2.54" y1="9.8" x2="2.54" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.3" x2="-7.62" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.3" x2="-7.62" y2="9.8" width="0.127" layer="21"/>
+<rectangle x1="-6.67" y1="0" x2="-6.02" y2="1.3" layer="21"/>
+<rectangle x1="-4.13" y1="0" x2="-3.49" y2="1.3" layer="21"/>
+<rectangle x1="-1.59" y1="0" x2="-0.95" y2="1.3" layer="21"/>
+<rectangle x1="0.95" y1="0" x2="1.59" y2="1.3" layer="21"/>
+<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NJM2670">
@@ -868,6 +929,17 @@ type 0309, grid 12.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="RG" package="PH-1X04RG">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PH-1X06" prefix="CN">
@@ -986,6 +1058,24 @@ type 0309, grid 12.5 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FH-1X04" prefix="CN">
+<gates>
+<gate name="G$1" symbol="1X04" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="RG" package="FH-1X04RG">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1047,6 +1137,8 @@ type 0309, grid 12.5 mm</description>
 <part name="C3" library="MyLib" deviceset="C" device="2012" value="0.1u"/>
 <part name="C4" library="MyLib" deviceset="C" device="2012" value="0.1u"/>
 <part name="C5" library="MyLib" deviceset="C" device="2012" value="0.1u"/>
+<part name="CN5" library="MyLib" deviceset="PH-1X04SG" device="RG"/>
+<part name="CN6" library="MyLib" deviceset="FH-1X04" device="RG"/>
 </parts>
 <sheets>
 <sheet>
@@ -1102,6 +1194,8 @@ type 0309, grid 12.5 mm</description>
 <instance part="C3" gate="G$1" x="48.26" y="68.58"/>
 <instance part="C4" gate="G$1" x="48.26" y="134.62"/>
 <instance part="C5" gate="G$1" x="48.26" y="180.34"/>
+<instance part="CN5" gate="G$1" x="91.44" y="93.98" rot="R180"/>
+<instance part="CN6" gate="G$1" x="63.5" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -1905,6 +1999,34 @@ type 0309, grid 12.5 mm</description>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="-33.02" x2="-10.16" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="!RESET!"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="CN6" gate="G$1" pin="P$2"/>
+<pinref part="CN5" gate="G$1" pin="P$3"/>
+<wire x1="71.12" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="CN6" gate="G$1" pin="P$3"/>
+<pinref part="CN5" gate="G$1" pin="P$2"/>
+<wire x1="71.12" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="CN6" gate="G$1" pin="P$4"/>
+<pinref part="CN5" gate="G$1" pin="P$1"/>
+<wire x1="71.12" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="CN6" gate="G$1" pin="P$1"/>
+<pinref part="CN5" gate="G$1" pin="P$4"/>
+<wire x1="71.12" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

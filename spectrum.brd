@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,10 +58,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="28.2575" x2="0" y2="0.0125" width="0" layer="20"/>
+<wire x1="0" y1="31.115" x2="0" y2="0.0125" width="0" layer="20"/>
 <wire x1="0" y1="0.0125" x2="100.0025" y2="0.0125" width="0" layer="20"/>
-<wire x1="100.0025" y1="0.0125" x2="100.0025" y2="28.2575" width="0" layer="20"/>
-<wire x1="100.0025" y1="28.2575" x2="0" y2="28.2575" width="0" layer="20"/>
+<wire x1="100.0025" y1="0.0125" x2="100.0025" y2="31.115" width="0" layer="20"/>
+<wire x1="100.0025" y1="31.115" x2="0" y2="31.115" width="0" layer="20"/>
 <hole x="97.4725" y="25.7175" drill="3.2"/>
 <hole x="97.4725" y="2.54" drill="3.2"/>
 <hole x="31.75" y="2.54" drill="3.2"/>
@@ -405,6 +405,67 @@
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="PH-1X04RG">
+<pad name="1" x="-6.35" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="4" x="1.27" y="-1.27" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="0" x2="-5.715" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="0" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="-2.54" x2="-7.62" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-7.62" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-6.67" y1="-1.27" x2="-6.03" y2="0.23" layer="21"/>
+<rectangle x1="-6.67" y1="2.77" x2="-6.03" y2="8.77" layer="21"/>
+<rectangle x1="-4.13" y1="-1.27" x2="-3.49" y2="0.23" layer="21"/>
+<rectangle x1="-4.13" y1="2.77" x2="-3.49" y2="8.77" layer="21"/>
+<rectangle x1="-1.59" y1="-1.27" x2="-0.95" y2="0.23" layer="21"/>
+<rectangle x1="-1.59" y1="2.77" x2="-0.95" y2="8.77" layer="21"/>
+<rectangle x1="0.95" y1="-1.27" x2="1.59" y2="0.23" layer="21"/>
+<rectangle x1="0.95" y1="2.77" x2="1.59" y2="8.77" layer="21"/>
+<wire x1="-7.62" y1="2.77" x2="2.54" y2="2.77" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.77" x2="2.54" y2="0.23" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.23" x2="-7.62" y2="0.23" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="0.23" x2="-7.62" y2="2.77" width="0.127" layer="21"/>
+<text x="-7.62" y="-3.81" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+<package name="FH-1X04RG">
+<pad name="1" x="-6.35" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="-3.81" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="4" x="1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-7.62" y1="9.8" x2="2.54" y2="9.8" width="0.127" layer="21"/>
+<wire x1="2.54" y1="9.8" x2="2.54" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.3" x2="-7.62" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.3" x2="-7.62" y2="9.8" width="0.127" layer="21"/>
+<rectangle x1="-6.67" y1="0" x2="-6.02" y2="1.3" layer="21"/>
+<rectangle x1="-4.13" y1="0" x2="-3.49" y2="1.3" layer="21"/>
+<rectangle x1="-1.59" y1="0" x2="-0.95" y2="1.3" layer="21"/>
+<rectangle x1="0.95" y1="0" x2="1.59" y2="1.3" layer="21"/>
+<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -588,12 +649,12 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <element name="IC5" library="MyLib" package="EMP-24" value="NJM2670E3" x="91.44" y="13.97" rot="MR90"/>
 <element name="IC6" library="MyLib" package="EMP-24" value="NJM2670E3" x="70.8025" y="13.97" rot="MR90"/>
 <element name="IC7" library="MyLib" package="EMP-24" value="NJM2670E3" x="50.4825" y="13.97" rot="MR90"/>
-<element name="R1" library="MyLib" package="R3225" value="0.24" x="92.075" y="3.4925" rot="MR180"/>
-<element name="R2" library="MyLib" package="R3225" value="0.24" x="82.55" y="5.08" rot="MR180"/>
-<element name="R3" library="MyLib" package="R3225" value="0.24" x="77.47" y="5.08" rot="MR0"/>
-<element name="R4" library="MyLib" package="R3225" value="0.24" x="62.23" y="5.08" rot="MR180"/>
-<element name="R5" library="MyLib" package="R3225" value="0.24" x="57.15" y="5.08" rot="MR0"/>
-<element name="R6" library="MyLib" package="R3225" value="0.24" x="40.64" y="7.3025" rot="MR270"/>
+<element name="R1" library="MyLib" package="R3225" value="0.24" x="92.075" y="2.69875" rot="MR90"/>
+<element name="R2" library="MyLib" package="R3225" value="0.24" x="88.10625" y="2.69875" rot="MR90"/>
+<element name="R3" library="MyLib" package="R3225" value="0.24" x="78.105" y="4.28625" rot="MR180"/>
+<element name="R4" library="MyLib" package="R3225" value="0.24" x="61.11875" y="5.55625" rot="MR0"/>
+<element name="R5" library="MyLib" package="R3225" value="0.24" x="56.118125" y="5.55625" rot="MR180"/>
+<element name="R6" library="MyLib" package="R3225" value="0.24" x="40.79875" y="7.77875" rot="MR90"/>
 <element name="IC1" library="MyLib" package="SSOP8-P-0.65" value="7W14FU" x="80.3275" y="21.9075" rot="MR270"/>
 <element name="IC2" library="MyLib" package="SSOP8-P-0.65" value="7W14FU" x="60.0075" y="20.955" rot="MR270"/>
 <element name="IC3" library="MyLib" package="SSOP8-P-0.65" value="7W14FU" x="39.37" y="20.32" rot="MR270"/>
@@ -623,6 +684,8 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <element name="C3" library="MyLib" package="C2012" value="0.1u" x="55.08625" y="22.70125" rot="MR90"/>
 <element name="C4" library="MyLib" package="C2012" value="0.1u" x="75.72375" y="23.97125" rot="MR90"/>
 <element name="C5" library="MyLib" package="C2012" value="0.1u" x="93.345" y="24.60625" rot="MR90"/>
+<element name="CN5" library="MyLib" package="PH-1X04RG" value="PH-1X04SGRG" x="66.83375" y="2.54" rot="R180"/>
+<element name="CN6" library="MyLib" package="FH-1X04RG" value="FH-1X04RG" x="71.91375" y="28.09875"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -633,10 +696,10 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <contactref element="IC7" pad="18"/>
 <contactref element="IC7" pad="19"/>
 <polygon width="0.4064" layer="16" orphans="yes">
-<vertex x="0" y="28.2575"/>
+<vertex x="0" y="31.115"/>
 <vertex x="0" y="0"/>
 <vertex x="100.0125" y="0"/>
-<vertex x="100.0125" y="28.2575"/>
+<vertex x="100.0125" y="31.115"/>
 </polygon>
 <contactref element="R2" pad="1"/>
 <contactref element="R1" pad="1"/>
@@ -660,19 +723,13 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <contactref element="C2" pad="2"/>
 <contactref element="CN1" pad="P$6"/>
 <contactref element="CN4" pad="1"/>
-<via x="80.80375" y="8.255" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
-<via x="60.0075" y="8.09625" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
-<via x="37.1475" y="14.2875" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
-<wire x1="37.1475" y1="14.2875" x2="60.0075" y2="8.09625" width="1.016" layer="1"/>
+<via x="46.83125" y="5.715" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
 <via x="26.035" y="8.73125" extent="1-16" drill="0.6" diameter="1.4224" shape="octagon"/>
 <via x="28.73375" y="6.0325" extent="1-16" drill="0.6" diameter="1.4224" shape="octagon"/>
 <wire x1="26.035" y1="8.73125" x2="28.73375" y2="6.0325" width="0.4064" layer="1"/>
-<via x="87.15375" y="3.4925" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
-<wire x1="80.80375" y1="8.255" x2="87.15375" y2="3.4925" width="1.016" layer="1"/>
-<wire x1="60.0075" y1="8.09625" x2="80.80375" y2="8.255" width="1.016" layer="1"/>
 <polygon width="0.4064" layer="1" orphans="yes">
-<vertex x="0" y="28.2575"/>
-<vertex x="100.0125" y="28.2575"/>
+<vertex x="0" y="31.115"/>
+<vertex x="100.0125" y="31.115"/>
 <vertex x="100.0125" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
@@ -686,86 +743,87 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
+<wire x1="39.695" y1="18.32" x2="40.345" y2="22.32" width="0" layer="19" extent="16-16"/>
+<wire x1="76.705" y1="4.28625" x2="71.4375" y2="9.02" width="0" layer="19" extent="16-16"/>
+<wire x1="62.51875" y1="5.55625" x2="54.718125" y2="5.55625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="IC5" pad="1"/>
-<wire x1="36.83" y1="1.27" x2="91.2525" y2="1.27" width="0.4064" layer="16"/>
-<wire x1="91.2525" y1="1.27" x2="93.475" y2="3.4925" width="0.4064" layer="16"/>
+<wire x1="36.83" y1="1.11125" x2="85.69625" y2="1.11125" width="0.4064" layer="16"/>
 <wire x1="98.425" y1="9.02" x2="98.425" y2="7.3025" width="0.4064" layer="16"/>
 <wire x1="98.425" y1="7.3025" x2="97.79" y2="6.6675" width="0.4064" layer="16"/>
 <wire x1="97.79" y1="6.6675" x2="96.2025" y2="6.6675" width="0.4064" layer="16"/>
-<wire x1="96.2025" y1="6.6675" x2="93.475" y2="3.94" width="0.4064" layer="16"/>
-<wire x1="93.475" y1="3.4925" x2="93.475" y2="3.94" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="1.27" x2="34.76625" y2="3.33375" width="0.4064" layer="16"/>
-<wire x1="34.76625" y1="3.33375" x2="34.76625" y2="6.358953125" width="0.4064" layer="16"/>
+<wire x1="36.83" y1="1.11125" x2="34.76625" y2="3.175" width="0.4064" layer="16"/>
+<wire x1="34.76625" y1="3.175" x2="34.76625" y2="6.358953125" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="32"/>
 <wire x1="31.999584375" y1="9.12561875" x2="34.76625" y2="6.358953125" width="0.4064" layer="16"/>
+<wire x1="92.075" y1="4.09875" x2="96.2025" y2="6.6675" width="0" layer="19" extent="16-16"/>
+<wire x1="85.69625" y1="1.11125" x2="92.075" y2="4.09875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC5" pad="12"/>
 <contactref element="R2" pad="2"/>
-<wire x1="37.1475" y1="1.905" x2="81.5975" y2="1.905" width="0.4064" layer="16"/>
+<wire x1="37.1475" y1="1.74625" x2="81.43875" y2="1.74625" width="0.4064" layer="16"/>
 <wire x1="84.455" y1="9.02" x2="84.455" y2="5.585" width="1.016" layer="16"/>
-<wire x1="84.455" y1="5.585" x2="83.95" y2="5.08" width="1.016" layer="16"/>
-<wire x1="83.95" y1="5.08" x2="83.95" y2="4.2575" width="0.4064" layer="16"/>
-<wire x1="83.95" y1="4.2575" x2="81.5975" y2="1.905" width="0.4064" layer="16"/>
-<wire x1="37.1475" y1="1.905" x2="35.40125" y2="3.65125" width="0.4064" layer="16"/>
-<wire x1="35.40125" y1="3.65125" x2="35.40125" y2="6.855321875" width="0.4064" layer="16"/>
+<wire x1="83.95" y1="4.2575" x2="81.43875" y2="1.74625" width="0.4064" layer="16"/>
+<wire x1="37.1475" y1="1.74625" x2="35.40125" y2="3.4925" width="0.4064" layer="16"/>
+<wire x1="35.40125" y1="3.4925" x2="35.40125" y2="6.855321875" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="31"/>
 <wire x1="32.56526875" y1="9.691303125" x2="35.40125" y2="6.855321875" width="0.4064" layer="16"/>
+<wire x1="84.455" y1="5.585" x2="88.10625" y2="4.09875" width="0" layer="19" extent="16-16"/>
+<wire x1="83.95" y1="4.2575" x2="84.455" y2="5.585" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC6" pad="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="37.465" y1="2.54" x2="73.53" y2="2.54" width="0.4064" layer="16"/>
-<wire x1="77.7875" y1="9.02" x2="77.7875" y2="7.3025" width="1.016" layer="16"/>
-<wire x1="77.7875" y1="7.3025" x2="76.07" y2="5.585" width="1.016" layer="16"/>
-<wire x1="76.07" y1="5.08" x2="76.07" y2="5.585" width="1.016" layer="16"/>
-<wire x1="73.53" y1="2.54" x2="76.07" y2="5.08" width="0.4064" layer="16"/>
-<wire x1="37.465" y1="2.54" x2="36.03625" y2="3.96875" width="0.4064" layer="16"/>
-<wire x1="36.03625" y1="3.96875" x2="36.03625" y2="7.35169375" width="0.4064" layer="16"/>
+<wire x1="37.465" y1="2.38125" x2="73.37125" y2="2.38125" width="0.4064" layer="16"/>
+<wire x1="37.465" y1="2.38125" x2="36.03625" y2="3.81" width="0.4064" layer="16"/>
+<wire x1="36.03625" y1="3.81" x2="36.03625" y2="7.35169375" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="30"/>
 <wire x1="33.130953125" y1="10.256990625" x2="36.03625" y2="7.35169375" width="0.4064" layer="16"/>
+<wire x1="79.505" y1="4.28625" x2="77.7875" y2="9.02" width="0" layer="19" extent="16-16"/>
+<wire x1="73.37125" y1="2.38125" x2="79.505" y2="4.28625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC6" pad="12"/>
 <contactref element="R4" pad="2"/>
-<wire x1="37.7825" y1="3.175" x2="62.5475" y2="3.175" width="0.4064" layer="16"/>
-<wire x1="62.5475" y1="3.175" x2="63.9475" y2="4.575" width="0.4064" layer="16"/>
-<wire x1="63.63" y1="5.08" x2="63.9475" y2="4.575" width="0.4064" layer="16"/>
-<wire x1="63.63" y1="5.08" x2="63.63" y2="8.8325" width="1.016" layer="16"/>
-<wire x1="63.63" y1="8.8325" x2="63.8175" y2="9.02" width="1.016" layer="16"/>
-<wire x1="37.7825" y1="3.175" x2="36.67125" y2="4.28625" width="0.4064" layer="16"/>
-<wire x1="36.67125" y1="4.28625" x2="36.67125" y2="7.848065625" width="0.4064" layer="16"/>
+<wire x1="37.7825" y1="3.01625" x2="56.99125" y2="3.01625" width="0.4064" layer="16"/>
+<wire x1="37.7825" y1="3.01625" x2="36.67125" y2="4.1275" width="0.4064" layer="16"/>
+<wire x1="36.67125" y1="4.1275" x2="36.67125" y2="7.848065625" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="29"/>
 <wire x1="33.696640625" y1="10.822675" x2="36.67125" y2="7.848065625" width="0.4064" layer="16"/>
+<wire x1="56.99125" y1="3.01625" x2="57.62625" y2="3.65125" width="0.4064" layer="16"/>
+<wire x1="57.62625" y1="3.65125" x2="58.7375" y2="3.65125" width="0.4064" layer="16"/>
+<wire x1="59.71875" y1="5.55625" x2="59.71875" y2="4.6325" width="0.4064" layer="16"/>
+<wire x1="59.71875" y1="4.6325" x2="58.7375" y2="3.65125" width="0.4064" layer="16"/>
+<wire x1="63.8175" y1="9.02" x2="63.3125" y2="9.02" width="1.016" layer="16"/>
+<wire x1="63.3125" y1="9.02" x2="62.865" y2="8.5725" width="1.016" layer="16"/>
+<wire x1="62.865" y1="8.5725" x2="60.6425" y2="8.5725" width="1.016" layer="16"/>
+<wire x1="60.6425" y1="8.5725" x2="59.71875" y2="7.64875" width="1.016" layer="16"/>
+<wire x1="59.71875" y1="5.55625" x2="59.71875" y2="7.64875" width="1.016" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="IC7" pad="12"/>
 <contactref element="R6" pad="2"/>
-<wire x1="43.4975" y1="9.02" x2="43.4975" y2="7.62" width="0.4064" layer="16"/>
-<wire x1="43.4975" y1="7.62" x2="41.78" y2="5.9025" width="0.4064" layer="16"/>
-<wire x1="40.64" y1="5.9025" x2="41.78" y2="5.9025" width="0.4064" layer="16"/>
-<wire x1="38.1" y1="8.68205625" x2="38.1" y2="7.3025" width="0.4064" layer="16"/>
-<wire x1="38.1" y1="7.3025" x2="39.5" y2="5.9025" width="0.4064" layer="16"/>
-<wire x1="39.5" y1="5.9025" x2="40.64" y2="5.9025" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="27"/>
-<wire x1="34.828009375" y1="11.954046875" x2="38.1" y2="8.68205625" width="0.4064" layer="16"/>
+<wire x1="40.79875" y1="9.17875" x2="37.60330625" y2="9.17875" width="0.4064" layer="16"/>
+<wire x1="37.60330625" y1="9.17875" x2="34.828009375" y2="11.954046875" width="0.4064" layer="16"/>
+<wire x1="43.4975" y1="9.02" x2="40.9575" y2="9.02" width="1.016" layer="16"/>
+<wire x1="40.9575" y1="9.02" x2="40.79875" y2="9.17875" width="1.016" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="R5" pad="2"/>
 <contactref element="IC7" pad="1"/>
-<wire x1="56.1975" y1="5.715" x2="56.515" y2="6.0325" width="0.4064" layer="16"/>
-<wire x1="55.75" y1="5.08" x2="56.1975" y2="5.715" width="0.4064" layer="16"/>
-<wire x1="57.4675" y1="9.02" x2="57.4675" y2="7.115" width="0.4064" layer="16"/>
-<wire x1="57.4675" y1="7.115" x2="55.75" y2="5.08" width="0.4064" layer="16"/>
-<wire x1="54.48" y1="3.81" x2="55.75" y2="5.08" width="0.4064" layer="16"/>
-<wire x1="54.48" y1="3.81" x2="38.1" y2="3.81" width="0.4064" layer="16"/>
-<wire x1="38.1" y1="3.81" x2="37.30625" y2="4.60375" width="0.4064" layer="16"/>
-<wire x1="37.30625" y1="4.60375" x2="37.30625" y2="8.344434375" width="0.4064" layer="16"/>
+<wire x1="56.67375" y1="3.65125" x2="38.1" y2="3.65125" width="0.4064" layer="16"/>
+<wire x1="38.1" y1="3.65125" x2="37.30625" y2="4.445" width="0.4064" layer="16"/>
+<wire x1="37.30625" y1="4.445" x2="37.30625" y2="8.344434375" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="28"/>
 <wire x1="34.262325" y1="11.388359375" x2="37.30625" y2="8.344434375" width="0.4064" layer="16"/>
+<wire x1="56.67375" y1="3.65125" x2="57.518125" y2="4.495625" width="0.4064" layer="16"/>
+<wire x1="57.518125" y1="5.55625" x2="57.518125" y2="4.495625" width="0.4064" layer="16"/>
+<wire x1="57.4675" y1="9.02" x2="57.4675" y2="5.606875" width="1.016" layer="16"/>
+<wire x1="57.4675" y1="5.606875" x2="57.518125" y2="5.55625" width="1.016" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="IC6" pad="3"/>
@@ -774,7 +832,6 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <contactref element="IC5" pad="9"/>
 <contactref element="IC7" pad="9"/>
 <contactref element="IC7" pad="3"/>
-<wire x1="54.9275" y1="9.02" x2="54.9275" y2="7.3025" width="0.4064" layer="16"/>
 <wire x1="47.3075" y1="7.62" x2="47.3075" y2="9.02" width="0.4064" layer="16"/>
 <wire x1="47.3075" y1="10.16" x2="47.3075" y2="9.02" width="0.4064" layer="16"/>
 <wire x1="75.2475" y1="9.02" x2="75.2475" y2="10.4775" width="0.4064" layer="16"/>
@@ -802,19 +859,17 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="73.3425" y1="5.3975" x2="69.85" y2="5.3975" width="0.4064" layer="16"/>
 <wire x1="69.85" y1="5.3975" x2="67.6275" y2="7.62" width="0.4064" layer="16"/>
 <wire x1="67.6275" y1="7.62" x2="67.6275" y2="9.02" width="0.4064" layer="16"/>
-<wire x1="54.9275" y1="7.3025" x2="53.0225" y2="5.3975" width="0.4064" layer="16"/>
-<wire x1="53.0225" y1="5.3975" x2="49.53" y2="5.3975" width="0.4064" layer="16"/>
 <wire x1="49.53" y1="5.3975" x2="47.3075" y2="7.62" width="0.4064" layer="16"/>
-<wire x1="46.6725" y1="10.795" x2="42.8625" y2="10.795" width="0.4064" layer="16"/>
-<wire x1="42.8625" y1="10.795" x2="42.545" y2="10.4775" width="0.4064" layer="16"/>
-<wire x1="42.545" y1="10.4775" x2="42.545" y2="7.62" width="0.4064" layer="16"/>
-<wire x1="42.545" y1="7.62" x2="42.2275" y2="7.3025" width="0.4064" layer="16"/>
-<wire x1="38.735" y1="9.2075" x2="38.735" y2="7.62" width="0.4064" layer="16"/>
-<wire x1="38.735" y1="7.62" x2="39.0525" y2="7.3025" width="0.4064" layer="16"/>
-<wire x1="39.0525" y1="7.3025" x2="42.2275" y2="7.3025" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="26"/>
-<wire x1="38.735" y1="9.2075" x2="38.705928125" y2="9.2075" width="0.4064" layer="16"/>
-<wire x1="38.705928125" y1="9.2075" x2="35.393696875" y2="12.51973125" width="0.4064" layer="16"/>
+<wire x1="46.6725" y1="10.795" x2="37.118428125" y2="10.795" width="0.4064" layer="16"/>
+<wire x1="37.118428125" y1="10.795" x2="35.393696875" y2="12.51973125" width="0.4064" layer="16"/>
+<wire x1="54.9275" y1="9.02" x2="54.9275" y2="7.62" width="0.4064" layer="16"/>
+<wire x1="54.9275" y1="7.62" x2="54.689375" y2="7.381875" width="0.4064" layer="16"/>
+<wire x1="54.689375" y1="7.381875" x2="53.81625" y2="7.381875" width="0.4064" layer="16"/>
+<wire x1="53.81625" y1="7.381875" x2="53.34" y2="6.905625" width="0.4064" layer="16"/>
+<wire x1="53.34" y1="6.905625" x2="53.34" y2="6.19125" width="0.4064" layer="16"/>
+<wire x1="53.34" y1="6.19125" x2="52.54625" y2="5.3975" width="0.4064" layer="16"/>
+<wire x1="52.54625" y1="5.3975" x2="49.53" y2="5.3975" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC7" pad="13"/>
@@ -837,9 +892,6 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="77.7875" y1="21.11375" x2="77.47" y2="21.43125" width="1.016" layer="16"/>
 <via x="84.455" y="22.5425" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
 <wire x1="84.455" y1="22.5425" x2="84.455" y2="18.92" width="1.016" layer="16"/>
-<via x="98.1075" y="21.43125" extent="1-16" drill="1.1" diameter="1.778" shape="octagon"/>
-<wire x1="98.425" y1="18.92" x2="98.425" y2="21.11375" width="1.016" layer="16"/>
-<wire x1="98.425" y1="21.11375" x2="98.1075" y2="21.43125" width="1.016" layer="16"/>
 <wire x1="77.47" y1="21.43125" x2="84.455" y2="22.5425" width="1.016" layer="1"/>
 <wire x1="63.34125" y1="22.06625" x2="56.99125" y2="21.2725" width="1.016" layer="1"/>
 <wire x1="43.18" y1="21.43125" x2="44.60875" y2="22.86" width="1.016" layer="1"/>
@@ -849,8 +901,7 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="63.97625" y1="22.70125" x2="76.2" y2="22.70125" width="1.016" layer="1"/>
 <wire x1="76.2" y1="22.70125" x2="77.47" y2="21.43125" width="1.016" layer="1"/>
 <wire x1="84.455" y1="22.5425" x2="84.61375" y2="22.70125" width="1.016" layer="1"/>
-<wire x1="84.61375" y1="22.70125" x2="96.8375" y2="22.70125" width="1.016" layer="1"/>
-<wire x1="96.8375" y1="22.70125" x2="98.1075" y2="21.43125" width="1.016" layer="1"/>
+<wire x1="84.455" y1="18.92" x2="98.425" y2="18.92" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$11">
 <contactref element="IC7" pad="17"/>
@@ -1205,8 +1256,9 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 </signal>
 <signal name="OUTE1">
 <contactref element="IC7" pad="5"/>
-<via x="52.3875" y="6.6675" extent="1-16" drill="0.6" diameter="1.4224" shape="octagon"/>
-<wire x1="52.3875" y1="9.02" x2="52.3875" y2="6.6675" width="1.016" layer="16"/>
+<via x="52.07" y="6.6675" extent="1-16" drill="0.6" diameter="1.4224" shape="octagon"/>
+<wire x1="52.3875" y1="9.02" x2="52.3875" y2="6.985" width="1.016" layer="16"/>
+<wire x1="52.3875" y1="6.985" x2="52.07" y2="6.6675" width="1.016" layer="16"/>
 </signal>
 <signal name="OUTF1">
 <contactref element="IC7" pad="11"/>
@@ -1465,6 +1517,26 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="15.74075" y1="6.50875" x2="14.78825" y2="5.55625" width="0.4064" layer="16"/>
 <contactref element="IC8" pad="2"/>
 <wire x1="25.84718125" y1="6.50875" x2="29.029734375" y2="9.691303125" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$42">
+<contactref element="CN6" pad="2"/>
+<contactref element="CN5" pad="3"/>
+<wire x1="68.10375" y1="3.81" x2="68.10375" y2="28.09875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$43">
+<contactref element="CN6" pad="3"/>
+<contactref element="CN5" pad="2"/>
+<wire x1="70.64375" y1="3.81" x2="70.64375" y2="28.09875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$45">
+<contactref element="CN6" pad="4"/>
+<contactref element="CN5" pad="1"/>
+<wire x1="73.18375" y1="3.81" x2="73.18375" y2="28.09875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$46">
+<contactref element="CN6" pad="1"/>
+<contactref element="CN5" pad="4"/>
+<wire x1="65.56375" y1="3.81" x2="65.56375" y2="28.09875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
