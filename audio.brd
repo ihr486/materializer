@@ -419,6 +419,34 @@
 <text x="-1.905" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.2225" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
+<package name="RK0971220-F15-C0-A104">
+<wire x1="-4.75" y1="5" x2="-3.5" y2="5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="5" x2="3.5" y2="5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="5" x2="4.75" y2="5" width="0.127" layer="21"/>
+<wire x1="4.75" y1="5" x2="4.75" y2="-4.55" width="0.127" layer="21"/>
+<wire x1="4.75" y1="-4.55" x2="-4.75" y2="-4.55" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="-4.55" x2="-4.75" y2="5" width="0.127" layer="21"/>
+<pad name="A1" x="2.5" y="0" drill="1" shape="octagon"/>
+<pad name="A2" x="0" y="0" drill="1" shape="octagon"/>
+<pad name="A3" x="-2.5" y="0" drill="1" shape="octagon"/>
+<pad name="B1" x="2.5" y="-2.5" drill="1" shape="octagon"/>
+<pad name="B2" x="0" y="-2.5" drill="1" shape="octagon"/>
+<pad name="B3" x="-2.5" y="-2.5" drill="1" shape="octagon"/>
+<wire x1="-3.5" y1="5" x2="-3.5" y2="10" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="10" x2="-3" y2="10" width="0.127" layer="21"/>
+<wire x1="-3" y1="10" x2="3" y2="10" width="0.127" layer="21"/>
+<wire x1="3" y1="10" x2="3.5" y2="10" width="0.127" layer="21"/>
+<wire x1="3.5" y1="10" x2="3.5" y2="5" width="0.127" layer="21"/>
+<wire x1="-3" y1="10" x2="-3" y2="13" width="0.127" layer="21"/>
+<wire x1="-3" y1="13" x2="-3" y2="20" width="0.127" layer="21"/>
+<wire x1="-3" y1="20" x2="-1.5" y2="20" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="20" x2="3" y2="20" width="0.127" layer="21"/>
+<wire x1="3" y1="20" x2="3" y2="10" width="0.127" layer="21"/>
+<wire x1="-3" y1="13" x2="-1.5" y2="13" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="13" x2="-1.5" y2="20" width="0.127" layer="21"/>
+<text x="6.35" y="6.35" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="6.35" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -599,12 +627,9 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="MyLib" package="C2012" value="1u" x="16.51" y="8.89" rot="MR0"/>
 <element name="C2" library="MyLib" package="C2012" value="0.1u" x="6.35" y="7.62" rot="MR0"/>
 <element name="CN2" library="MyLib" package="PH-1X06RG" value="PH-1X06RG" x="62.23" y="19.3675" rot="R270"/>
-<element name="IC1" library="MyLib" package="P-LQFP32-7X7-0.80" value="R5F104BCAFP" x="17.78" y="16.51" rot="MR0"/>
 <element name="IC2" library="MyLib" package="EMP8" value="NJM2746E" x="21.9075" y="30.7975" rot="MR0"/>
-<element name="R1" library="MyLib" package="R2012" value="4.7k" x="11.43" y="11.43" rot="MR0"/>
 <element name="R2" library="MyLib" package="R2012" value="47k" x="10.16" y="15.24" rot="MR270"/>
 <element name="CN3" library="MyLib" package="MJ8435" value="STEREO-3.5-MJ8435" x="36.195" y="33.655"/>
 <element name="CN4" library="MyLib" package="MJ8435" value="STEREO-3.5-MJ8435" x="45.72" y="33.655"/>
@@ -617,14 +642,19 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <element name="IC5" library="MyLib" package="SOT-23-5" value="NJM2866F" x="10.4775" y="21.9075" rot="MR0"/>
 <element name="C3" library="MyLib" package="C2012" value="10u" x="17.4625" y="26.67" rot="MR0"/>
 <element name="C4" library="MyLib" package="C2012" value="10u" x="3.175" y="26.3525" rot="MR0"/>
+<element name="R3" library="MyLib" package="R2012" value="10k" x="21.2725" y="34.6075" rot="MR0"/>
 <element name="R4" library="MyLib" package="R2012" value="10k" x="21.9075" y="26.67" rot="MR0"/>
 <element name="R5" library="MyLib" package="R2012" value="10k" x="26.035" y="26.67" rot="MR180"/>
+<element name="R6" library="MyLib" package="R2012" value="10k" x="25.4" y="34.6075" rot="MR0"/>
 <element name="C5" library="MyLib" package="C2012" value="1u" x="3.81" y="22.86" rot="MR0"/>
 <element name="C6" library="MyLib" package="C2012" value="1u" x="3.81" y="19.3675" rot="MR0"/>
+<element name="IC3" library="MyLib" package="EMP8" value="NJM2746E" x="7.9375" y="30.7975" rot="MR0"/>
+<element name="R7" library="MyLib" package="R2012" value="10k" x="7.3025" y="34.6075" rot="MR0"/>
 <element name="R8" library="MyLib" package="R2012" value="10k" x="11.43" y="26.3525" rot="MR180"/>
 <element name="R9" library="MyLib" package="R2012" value="10k" x="7.3025" y="26.3525" rot="MR0"/>
-<element name="R11" library="MyLib" package="R2012" value="10k" x="16.51" y="30.7975" rot="MR90"/>
-<element name="R12" library="MyLib" package="R2012" value="10k" x="2.2225" y="30.7975" rot="MR90"/>
+<element name="R10" library="MyLib" package="R2012" value="10k" x="11.43" y="34.6075" rot="MR0"/>
+<element name="C7" library="MyLib" package="C2012" value="0.1u" x="3.175" y="34.6075" rot="MR0"/>
+<element name="C8" library="MyLib" package="C2012" value="0.1u" x="17.145" y="34.6075" rot="MR0"/>
 <element name="R13" library="MyLib" package="R2012" value="1k" x="45.4025" y="17.78" rot="MR180"/>
 <element name="R14" library="MyLib" package="R2012" value="100" x="45.4025" y="20.955" rot="MR180"/>
 <element name="R15" library="MyLib" package="R2012" value="100" x="45.4025" y="13.97" rot="MR180"/>
@@ -634,10 +664,9 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <element name="IC6" library="MyLib" package="SSOP8-P-0.65" value="7W14FU" x="57.4675" y="25.4" rot="MR180"/>
 <element name="C9" library="MyLib" package="C2012" value="0.1u" x="54.9275" y="29.21" rot="MR0"/>
 <element name="R19" library="MyLib" package="R2012" value="4.7k" x="59.69" y="17.4625" rot="MR270"/>
-<element name="R3" library="MyLib" package="R2012" value="" x="1.27" y="-5.715"/>
-<element name="R6" library="MyLib" package="R2012" value="" x="1.27" y="-11.43"/>
-<element name="C7" library="MyLib" package="C2012" value="" x="1.27" y="-17.145"/>
-<element name="C8" library="MyLib" package="C2012" value="" x="1.27" y="-22.86"/>
+<element name="VR1" library="MyLib" package="RK0971220-F15-C0-A104" value="" x="28.575" y="14.9225"/>
+<element name="IC7" library="MyLib" package="P-LQFP32-7X7-0.80" value="STM32F303K8T6" x="37.465" y="7.62" rot="MR0"/>
+<element name="C1" library="MyLib" package="C2012" value="0.1u" x="26.67" y="2.54" rot="MR0"/>
 </elements>
 <signals>
 <signal name="+5V">
@@ -651,25 +680,20 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="11.8775" y1="22.8575" x2="11.8775" y2="20.9575" width="0" layer="19" extent="16-16"/>
 <wire x1="4.66" y1="22.86" x2="11.8775" y2="22.8575" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$2">
-<contactref element="IC1" pad="6"/>
-<contactref element="C1" pad="1"/>
-<wire x1="17.36" y1="8.89" x2="16.58" y2="12.01" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="GND">
-<contactref element="IC1" pad="7"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="IC1" pad="3"/>
-<contactref element="IC1" pad="4"/>
-<contactref element="IC1" pad="5"/>
 <contactref element="CN1" pad="P$6"/>
 <contactref element="IC5" pad="P$2"/>
 <contactref element="IC4" pad="4"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
+<contactref element="IC2" pad="P$4"/>
+<contactref element="IC3" pad="P$4"/>
+<contactref element="R6" pad="1"/>
+<contactref element="R10" pad="1"/>
 <contactref element="CN3" pad="1"/>
 <contactref element="CN4" pad="1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C8" pad="2"/>
 <contactref element="U$3" pad="P$2"/>
 <contactref element="U$2" pad="P$3"/>
 <contactref element="U$1" pad="P$2"/>
@@ -681,27 +705,20 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <vertex x="51.1175" y="36.83"/>
 <vertex x="0" y="36.83"/>
 </polygon>
+<contactref element="IC7" pad="32"/>
+<contactref element="IC7" pad="16"/>
+<contactref element="R2" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C1" pad="2"/>
 </signal>
 <signal name="N$4">
-<contactref element="IC1" pad="16"/>
 <contactref element="CN1" pad="P$2"/>
-<wire x1="12.7" y1="6.35" x2="13.28" y2="19.31" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TOOL0">
-<contactref element="IC1" pad="15"/>
-<contactref element="R1" pad="2"/>
-<contactref element="IC1" pad="1"/>
 <contactref element="CN1" pad="P$3"/>
-<wire x1="10.453" y1="11.43" x2="13.28" y2="18.51" width="0" layer="19" extent="16-16"/>
-<wire x1="15.24" y1="6.35" x2="10.453" y2="11.43" width="0" layer="19" extent="16-16"/>
-<wire x1="20.58" y1="12.01" x2="15.24" y2="6.35" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RESET">
-<contactref element="R2" pad="2"/>
-<contactref element="IC1" pad="2"/>
 <contactref element="CN1" pad="P$5"/>
-<wire x1="20.32" y1="6.35" x2="19.78" y2="12.01" width="0" layer="19" extent="16-16"/>
-<wire x1="10.16" y1="14.263" x2="19.78" y2="12.01" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="CN3" pad="3"/>
@@ -711,19 +728,37 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="16.6125" y1="26.67" x2="33.995" y2="28.155" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+3V3">
-<contactref element="IC1" pad="8"/>
-<contactref element="C2" pad="1"/>
-<contactref element="R2" pad="1"/>
-<contactref element="R1" pad="1"/>
 <contactref element="IC5" pad="P$5"/>
 <contactref element="C6" pad="1"/>
+<contactref element="IC2" pad="P$8"/>
+<contactref element="R3" pad="2"/>
+<contactref element="IC3" pad="P$8"/>
+<contactref element="R7" pad="2"/>
+<contactref element="C7" pad="1"/>
+<contactref element="C8" pad="1"/>
 <contactref element="R13" pad="1"/>
-<wire x1="14.98" y1="12.01" x2="44.4255" y2="17.78" width="0" layer="19" extent="16-16"/>
-<wire x1="12.407" y1="11.43" x2="14.98" y2="12.01" width="0" layer="19" extent="16-16"/>
-<wire x1="10.16" y1="16.217" x2="12.407" y2="11.43" width="0" layer="19" extent="16-16"/>
-<wire x1="4.66" y1="19.3675" x2="10.16" y2="16.217" width="0" layer="19" extent="16-16"/>
+<wire x1="20.2955" y1="34.6075" x2="19.05" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="19.05" y1="34.6075" x2="17.995" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="18.9575" y1="32.7025" x2="18.9575" y2="34.515" width="0.4064" layer="16"/>
+<wire x1="18.9575" y1="34.515" x2="19.05" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="4.025" y1="34.6075" x2="5.08" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="5.08" y1="34.6075" x2="6.3255" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="4.9875" y1="32.7025" x2="4.9875" y2="34.515" width="0.4064" layer="16"/>
+<wire x1="4.9875" y1="34.515" x2="5.08" y2="34.6075" width="0.4064" layer="16"/>
+<contactref element="IC7" pad="1"/>
+<contactref element="IC7" pad="5"/>
+<contactref element="C2" pad="1"/>
+<contactref element="IC7" pad="17"/>
+<contactref element="C1" pad="1"/>
+<wire x1="34.665" y1="12.12" x2="44.4255" y2="17.78" width="0" layer="19" extent="16-16"/>
+<wire x1="37.065" y1="3.12" x2="34.665" y2="12.12" width="0" layer="19" extent="16-16"/>
+<wire x1="40.265" y1="3.12" x2="37.065" y2="3.12" width="0" layer="19" extent="16-16"/>
+<wire x1="27.52" y1="2.54" x2="37.065" y2="3.12" width="0" layer="19" extent="16-16"/>
+<wire x1="7.2" y1="7.62" x2="27.52" y2="2.54" width="0" layer="19" extent="16-16"/>
+<wire x1="4.66" y1="19.3675" x2="7.2" y2="7.62" width="0" layer="19" extent="16-16"/>
 <wire x1="9.0775" y1="22.8575" x2="4.66" y2="19.3675" width="0" layer="19" extent="16-16"/>
-<wire x1="7.2" y1="7.62" x2="12.407" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="4.9875" y1="32.7025" x2="9.0775" y2="22.8575" width="0" layer="19" extent="16-16"/>
+<wire x1="17.995" y1="34.6075" x2="6.3255" y2="34.6075" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="CN5" pad="P$2"/>
@@ -741,16 +776,55 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <vertex x="52.3875" y="36.83"/>
 </polygon>
 </signal>
+<signal name="N$1">
+<contactref element="IC2" pad="P$1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="IC2" pad="P$2"/>
+<contactref element="R5" pad="1"/>
+<wire x1="24.8575" y1="32.7025" x2="24.8575" y2="31.4325" width="0.4064" layer="16"/>
+<wire x1="22.8845" y1="26.67" x2="25.058" y2="26.67" width="0.4064" layer="16"/>
+<wire x1="25.058" y1="26.67" x2="25.0825" y2="26.67" width="0.4064" layer="16"/>
+<wire x1="25.0825" y1="26.67" x2="26.3525" y2="27.94" width="0.4064" layer="16"/>
+<wire x1="26.3525" y1="27.94" x2="26.3525" y2="31.115" width="0.4064" layer="16"/>
+<wire x1="26.3525" y1="31.115" x2="26.035" y2="31.4325" width="0.4064" layer="16"/>
+<wire x1="26.035" y1="31.4325" x2="24.8575" y2="31.4325" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$6">
+<contactref element="R3" pad="1"/>
+<contactref element="R6" pad="2"/>
+<contactref element="IC2" pad="P$3"/>
+<wire x1="22.2495" y1="34.6075" x2="24.423" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="24.8575" y1="30.1625" x2="23.495" y2="30.1625" width="0.4064" layer="16"/>
+<wire x1="23.495" y1="30.1625" x2="22.225" y2="31.4325" width="0.4064" layer="16"/>
+<wire x1="22.225" y1="31.4325" x2="22.225" y2="34.583" width="0.4064" layer="16"/>
+<wire x1="22.225" y1="34.583" x2="22.2495" y2="34.6075" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="R7" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="IC3" pad="P$3"/>
+<wire x1="8.2795" y1="34.6075" x2="10.453" y2="34.6075" width="0.4064" layer="16"/>
+<wire x1="10.8875" y1="30.1625" x2="9.525" y2="30.1625" width="0.4064" layer="16"/>
+<wire x1="9.525" y1="30.1625" x2="8.255" y2="31.4325" width="0.4064" layer="16"/>
+<wire x1="8.255" y1="31.4325" x2="8.255" y2="34.583" width="0.4064" layer="16"/>
+<wire x1="8.255" y1="34.583" x2="8.2795" y2="34.6075" width="0.4064" layer="16"/>
+</signal>
 <signal name="N$13">
+<contactref element="IC3" pad="P$5"/>
 <contactref element="R8" pad="2"/>
 <contactref element="C4" pad="1"/>
 <wire x1="4.025" y1="26.3525" x2="4.025" y2="27.93" width="0.4064" layer="16"/>
-<contactref element="IC2" pad="P$3"/>
-<wire x1="12.407" y1="26.3525" x2="24.8575" y2="30.1625" width="0" layer="19" extent="16-16"/>
-<wire x1="4.025" y1="26.3525" x2="12.407" y2="26.3525" width="0" layer="19" extent="16-16"/>
+<wire x1="4.025" y1="27.93" x2="4.9875" y2="28.8925" width="0.4064" layer="16"/>
+<wire x1="4.9875" y1="28.8925" x2="12.407" y2="26.3525" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$11">
+<contactref element="IC3" pad="P$2"/>
+<contactref element="IC3" pad="P$1"/>
 <contactref element="R8" pad="1"/>
+<contactref element="R9" pad="1"/>
+<wire x1="8.2795" y1="26.3525" x2="10.453" y2="26.3525" width="0.4064" layer="16"/>
+<wire x1="10.8875" y1="32.7025" x2="10.8875" y2="31.4325" width="0.4064" layer="16"/>
+<wire x1="10.8875" y1="31.4325" x2="12.065" y2="31.4325" width="0.4064" layer="16"/>
 <wire x1="12.065" y1="31.4325" x2="12.3825" y2="31.115" width="0.4064" layer="16"/>
 <wire x1="12.3825" y1="31.115" x2="12.3825" y2="27.94" width="0.4064" layer="16"/>
 <wire x1="12.3825" y1="27.94" x2="12.065" y2="27.6225" width="0.4064" layer="16"/>
@@ -781,9 +855,7 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <signal name="N$9">
 <contactref element="R5" pad="2"/>
 <contactref element="IC2" pad="P$6"/>
-<contactref element="R11" pad="1"/>
 <wire x1="18.9575" y1="30.1625" x2="16.852" y2="30.1625" width="0.4064" layer="16"/>
-<wire x1="16.852" y1="30.1625" x2="16.51" y2="29.8205" width="0.4064" layer="16"/>
 <wire x1="18.9575" y1="30.1625" x2="20.32" y2="30.1625" width="0.4064" layer="16"/>
 <wire x1="20.32" y1="30.1625" x2="21.9075" y2="28.575" width="0.4064" layer="16"/>
 <wire x1="27.012" y1="26.67" x2="27.012" y2="26.377" width="0.4064" layer="16"/>
@@ -791,51 +863,43 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <wire x1="26.035" y1="25.4" x2="22.225" y2="25.4" width="0.4064" layer="16"/>
 <wire x1="22.225" y1="25.4" x2="21.9075" y2="25.7175" width="0.4064" layer="16"/>
 <wire x1="21.9075" y1="25.7175" x2="21.9075" y2="28.575" width="0.4064" layer="16"/>
+<contactref element="VR1" pad="A2"/>
+<wire x1="28.575" y1="14.9225" x2="26.035" y2="25.4" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$10">
 <contactref element="IC2" pad="P$7"/>
-<contactref element="R11" pad="2"/>
-<contactref element="IC1" pad="28"/>
 <wire x1="18.9575" y1="31.4325" x2="16.852" y2="31.4325" width="0.4064" layer="16"/>
-<wire x1="16.852" y1="31.4325" x2="16.51" y2="31.7745" width="0.4064" layer="16"/>
-<wire x1="22.28" y1="16.91" x2="18.9575" y2="31.4325" width="0" layer="19" extent="16-16"/>
+<contactref element="VR1" pad="A3"/>
+<wire x1="26.075" y1="14.9225" x2="18.9575" y2="31.4325" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$14">
+<contactref element="IC3" pad="P$6"/>
 <contactref element="R9" pad="2"/>
-<contactref element="R12" pad="1"/>
-<wire x1="2.5645" y1="30.1625" x2="2.2225" y2="29.8205" width="0.4064" layer="16"/>
+<wire x1="4.9875" y1="30.1625" x2="2.5645" y2="30.1625" width="0.4064" layer="16"/>
 <wire x1="6.3255" y1="26.3525" x2="6.3255" y2="27.598" width="0.4064" layer="16"/>
 <wire x1="6.3255" y1="27.598" x2="6.6675" y2="28.2575" width="0.4064" layer="16"/>
 <wire x1="6.6675" y1="28.2575" x2="6.6675" y2="29.5275" width="0.4064" layer="16"/>
 <wire x1="6.6675" y1="29.5275" x2="6.0325" y2="30.1625" width="0.4064" layer="16"/>
-<contactref element="IC2" pad="P$2"/>
-<wire x1="6.6675" y1="29.5275" x2="24.8575" y2="31.4325" width="0" layer="19" extent="16-16"/>
-<wire x1="2.5645" y1="30.1625" x2="6.0325" y2="30.1625" width="0" layer="19" extent="16-16"/>
+<wire x1="6.0325" y1="30.1625" x2="4.9875" y2="30.1625" width="0.4064" layer="16"/>
+<contactref element="VR1" pad="B2"/>
+<wire x1="6.3255" y1="26.3525" x2="28.575" y2="12.4225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$16">
-<contactref element="R12" pad="2"/>
-<contactref element="IC1" pad="29"/>
-<wire x1="2.5645" y1="31.4325" x2="2.2225" y2="31.7745" width="0.4064" layer="16"/>
-<contactref element="IC2" pad="P$1"/>
-<wire x1="22.28" y1="16.11" x2="24.8575" y2="32.7025" width="0" layer="19" extent="16-16"/>
-<wire x1="2.5645" y1="31.4325" x2="24.8575" y2="32.7025" width="0" layer="19" extent="16-16"/>
+<contactref element="IC3" pad="P$7"/>
+<wire x1="4.9875" y1="31.4325" x2="2.5645" y2="31.4325" width="0.4064" layer="16"/>
+<contactref element="VR1" pad="B3"/>
+<wire x1="4.9875" y1="31.4325" x2="26.075" y2="12.4225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
-<contactref element="IC1" pad="24"/>
 <contactref element="R14" pad="1"/>
-<wire x1="20.58" y1="21.01" x2="44.4255" y2="20.955" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$18">
 <contactref element="U$2" pad="P$4"/>
-<contactref element="IC1" pad="23"/>
 <contactref element="R13" pad="2"/>
 <wire x1="46.3795" y1="17.78" x2="49" y2="18.7325" width="0" layer="19" extent="16-16"/>
-<wire x1="19.78" y1="21.01" x2="46.3795" y2="17.78" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
-<contactref element="IC1" pad="22"/>
 <contactref element="R15" pad="1"/>
-<wire x1="18.98" y1="21.01" x2="44.4255" y2="13.97" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
 <contactref element="R14" pad="2"/>
@@ -905,11 +969,10 @@ Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <contactref element="R16" pad="2"/>
 <wire x1="55.4675" y1="25.075" x2="59.69" y2="22.567" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="V+">
-<contactref element="IC2" pad="P$8"/>
-</signal>
-<signal name="V-">
-<contactref element="IC2" pad="P$4"/>
+<signal name="N$2">
+<contactref element="IC7" pad="31"/>
+<contactref element="R2" pad="2"/>
+<wire x1="10.16" y1="14.263" x2="41.965" y2="5.62" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>
